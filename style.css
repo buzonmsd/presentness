@@ -1,0 +1,41 @@
+body {
+      cursor: crosshair;
+      background-color: #0000FF;
+      background-image: url("http://www.3dtelepresence.com/hong-kong-to-london-handshake.jpg");
+      color: white;
+}
+
+header {
+  color: white;
+  font-size: 12px;
+  font-family: 'Faster One', cursive;
+}
+
+h1 {
+    height:30px;
+    width:100%;
+    margin-left:10px;
+    color: white;
+    font-size: 24px;
+    }
+
+    h2 {
+      display: none;
+      height:30px;
+      width:100%;
+      margin-left:50px;
+      font-family: 'Faster One', cursive;
+      font-size: 40px;
+    }
+
+h1:hover + h2{
+    display: inline;
+}
+
+
+footer {
+          font-family: 'Nova Mono', monospace;
+          font-size: 16px;
+          position: absolute;
+          bottom: 10px;
+}
