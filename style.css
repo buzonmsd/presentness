@@ -9,27 +9,17 @@ body {
 }
 
 h1{
-  position: relativa;
+  position: relative;
   top: 1px;
   color: white;
   font-family: 'Faster One', cursive;
-  font-size: 3.5vw;
+  font-size: 2.5vw;
 }
 
 a:visited{
   color: white;
 }
 
-/*
-h1 {
-        color: white;
-        height:30px;
-        width:100%;
-        margin-left:50px:
-        font-family: 'Faster One', cursive;
-        font-size: 3vw;
-      }
-*/
 
     h2 {
       color: white;
@@ -69,6 +59,18 @@ clear: both;
 
 */
 @media screen and (max-width: 600px) {
+  
+   background-image: url("https://d2w9rnfcy7mm78.cloudfront.net/5370007/original_852cadf6ccc2d6af0dc52dfe9eb9efc8.png?1572364834?bc=0");
+   background-size: contain;
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+};
+     
+}
+  
+  
   .column {
     width: 100%;
   }
