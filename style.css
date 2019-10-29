@@ -20,6 +20,16 @@ a:visited{
   color: white;
 }
 
+/*
+h1 {
+        color: white;
+        height:30px;
+        width:100%;
+        margin-left:50px:
+        font-family: 'Faster One', cursive;
+        font-size: 3vw;
+      }
+*/
 
     h2 {
       color: white;
@@ -30,7 +40,12 @@ a:visited{
       font-size: 2.3vw;
       text-decoration: underline;
       }
+/*
+h1:hover + h2{
+    display: inline;
+}
 
+*/
   .row {
 
 position: inherit;
@@ -45,7 +60,14 @@ bottom: 10px;
 right: 10px;
 }
 
+/* Clear floats after the columns */
+/*.row:after {
+content: "";
+display: table;
+clear: both;
+}
 
+*/
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
