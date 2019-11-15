@@ -30,7 +30,7 @@ a:link {
 
 
     h2 {
-      color: white;
+      color: yellow;
       display: inline-block;
       position: absolute;
       top: 33.33%;
@@ -38,13 +38,42 @@ a:link {
       font-size: 2.3vw;
       text-decoration: underline;
       }
-      
-/*
-h1:hover + h2{
-    display: inline;
-}
 
-*/
+      h3 {
+        color: white;
+        display: none;
+        position: relative;
+        font-family: 'Nova Mono', monospace;
+        font-size: 1.7vw;
+        }
+      
+
+        #obra {
+            position: relative;
+            z-index: 10;
+            margin: 10px;
+            max-width: 420px;
+          }
+          
+          #A1 {
+            position: relative;
+            z-index: 60;
+            margin: 10px;
+            font-size: 10px;
+            max-width: 420px;
+            display: none;
+            }
+          
+          #obra:hover #A1 {
+            display: block;
+          }
+
+          #img2 {
+            top-left: 600px
+            bottom: 80px;
+          }
+
+
   .row {
 
 position: inherit;
