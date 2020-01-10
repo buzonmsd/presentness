@@ -1,6 +1,6 @@
 body {
       cursor: crosshair;
-      background-image: url("https://blog.halon.org.uk//wp-uploads/2013/02/shutterstock_3029105.jpg");
+      background-image: url("http://www.3dtelepresence.com/hong-kong-to-london-handshake.jpg");
       background-size: contain;
       background-position: center center;
       background-repeat: no-repeat;
@@ -18,19 +18,6 @@ h1{
 }
 
 
-h6 {
-  color: red;
-  display: inline-block;
-  position: absolute;
-  font-family: 'Nova Mono', monospace;
-  font-size: 20vw;
-  line-height: 95%;
-  width: 100%;
-  text-decoration: underline;
-  text-align: center;
-  }
-
-
 a:link {
   color:white;
   }
@@ -40,9 +27,6 @@ a:link {
   a:hover {
   color:yellow;
   }
-
-
-/*
 
 
     h2 {
