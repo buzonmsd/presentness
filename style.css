@@ -1,13 +1,16 @@
 body {
-      cursor: crosshair;
-      background-image: url("http://www.3dtelepresence.com/hong-kong-to-london-handshake.jpg");
-      background-size: contain;
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: cover;
-      height: 100%;
+  cursor: crosshair;
+  background-image: url("http://www.3dtelepresence.com/hong-kong-to-london-handshake.jpg");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
 }
+
+
+
 
 h1{
   position: relative;
@@ -18,68 +21,137 @@ h1{
 }
 
 
-a:link {
-  color:white;
-  }
-  a:visited {
-  color:blue;
-  }
-  a:hover {
-  color:yellow;
-  }
-
-
     h2 {
-      color: white;
+      color: yellow;
       display: inline-block;
-      position: absolute;
-      top: 33.33%;
+      position: relative;
       font-family: 'Nova Mono', monospace;
-      font-size: 2.3vw;
+      font-size: 1.7vw;
       text-decoration: underline;
       }
-/*
-h1:hover + h2{
-    display: inline;
+
+
+
+.grid-container {
+  padding-right: 18%; 
+  padding-left: 18%; 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "v1 v2 v3" "vg vg v4" "vg vg v5";
 }
 
-*/
-  .row {
+.vg { grid-area: vg; }
 
-position: inherit;
-float: right;
-/*width: 33.33%;*/
-background-color: white;
-padding-top:  1px;
-padding-left:  3px;
-padding-right:  3px;
-position: absolute;
-bottom: 10px;
-right: 10px;
-}
+.v1 { grid-area: v1; }
 
-/* Clear floats after the columns */
-/*.row:after {
-content: "";
-display: table;
-clear: both;
-}
+.v2 { grid-area: v2; }
 
-*/
-@media screen and (max-width: 600px) {
-  
-   background-image: url("https://d2w9rnfcy7mm78.cloudfront.net/5370007/original_852cadf6ccc2d6af0dc52dfe9eb9efc8.png?1572364834?bc=0");
-   background-size: contain;
-   background-position: center center;
-   background-repeat: no-repeat;
-   background-attachment: fixed;
-   background-size: cover;
-};
-     
-}
-  
-  
-  .column {
-    width: 100%;
+.v3 { grid-area: v3; }
+
+.v4 { grid-area: v4; }
+
+.v5 { grid-area: v5; }
+
+
+
+.vg {
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  position: relative;
+  border: 1px solid black;
   }
-}
+.vg iframe, .vg object, .vg embed {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  }
+
+  
+.v1 {
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  position: relative;
+  border: 1px solid black;
+  }
+.v1 iframe, .v1 object, .v1 embed {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  }
+
+  
+.v2 {
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  position: relative;
+  border: 1px solid black;
+  }
+.v2 iframe, .v2 object, .v2 embed {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  }
+
+  
+.v3 {
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  position: relative;
+  border: 1px solid black;
+  }
+.v3 iframe, .v3 object, .v3 embed {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  }
+
+  
+.v4 {
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  position: relative;
+  border: 1px solid black;
+  }
+.v4 iframe, .v4 object, .v4 embed {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  }
+
+  
+.v5 {
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  position: relative;
+  border: 1px solid black;
+  }
+.v5 iframe, .v5 object, .v5 embed {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  }
