@@ -1,6 +1,6 @@
 body {
   cursor: crosshair;
- /* background-image: url("https://d2w9rnfcy7mm78.cloudfront.net/6066652/original_4b73f3f670c75ea0ae1fed7b37b01416.jpg?1580709867?bc=0"); */
+  background-image: url("https://d2w9rnfcy7mm78.cloudfront.net/6108030/large_2d58fb83e65151cf7a5793cc0bceff00.jpg?1581053915?bc=0"); */
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
@@ -18,6 +18,16 @@ h1 {
   color: whitesmoke;
 }
 
+
+a:link {
+  color:white;
+  }
+  a:visited {
+  color:whitesmoke;
+  }
+  a:hover {
+  color:red;
+  }
 
 p {
   color: whitesmoke;
