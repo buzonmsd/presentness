@@ -61,6 +61,13 @@ h1:hover + h2{
   display: inline;
 }
 */
+
+
+.obra {
+    max-width: 50%;
+    max-height: inherit;
+}
+
 .row {
 
 position: inherit;
